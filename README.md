@@ -1,19 +1,13 @@
-git clonehttps://github.com/KhaledEbrahim1/social-media-Website-using-laravel.git
 
-
-cd social-media-Website-using-laravel
-
-composer install
-
-php artisan migrate
-
-php artisan serve
-
-
-demo
-
-Email:ibrahem@gmail.com
-Password:12345678
+<h1>Installation Guide</h1>
+<p>1-clone this repo to your local machine: git clone https://github.com/KhaledEbrahim1/social-media-Website-using-laravel.git</p>
+<p>2-cd social-media-Website-using-laravel</p>
+<p>3-copy .example.env to .env file: cp .example.env .env</p>
+<p>4-create a new database and add the database credentials to your .env file</p>
+<p>5-run composer install</p>
+<p>6-run php artisan key:generate</p>
+<p>7-run php artisan serve and then visit http://127.0.0.1:8000/</p>
+<p>credentials to access WebSite (email: ibrahem@gmail.com, password: 12345678)</p>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
